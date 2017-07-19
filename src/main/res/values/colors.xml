@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- #3F51B5 #303F9F #FF4081-->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#696969</color>
+    <color name="colorAccent">#808080</color>
+
+    <color name="background">#C0C0C0</color>
+
+    <color name="branco">#FFFFFF</color>
+    <color name="cinza">#808080</color>
+    <color name="preto">#000000</color>
+
+    <color name="fonteDescricao">#4c556c</color>
+
+    <color name="cormegasena">#209869</color>
+    <color name="cormegasena_claro">#90EE90</color>
+
+    <color name="corlotofacil">#930089</color>
+    <color name="corlotofacil_claro">#BA55D3</color>
+
+    <color name="corquina">#260085</color>
+    <color name="corquina_claro">#0000FF</color>
+
+    <color name="corlotomania">#f78100</color>
+    <color name="corlotomania_claro">#FFA500</color>
+
+    <color name="cortimemania">#00ff48</color>
+    <color name="cortimemania_claro">#98FB98</color>
+
+    <color name="corduplasena">#a61324</color>
+    <color name="corduplasena_claro">#FA8072</color>
+
+    <color name="corfederal">#103099</color>
+    <color name="corfederal_claro">#6495ED</color>
+
+    <color name="corloteca">#fb1f00</color>
+    <color name="corloteca_claro">#FF7F50</color>
+</resources>

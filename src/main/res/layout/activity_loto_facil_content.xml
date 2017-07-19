@@ -1,0 +1,247 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    tools:showIn="@layout/activity_loto_facil"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/branco">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trevo_lotofacil"
+            android:paddingTop="@dimen/padding_top"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:contentDescription="@string/trevo_lotofacil"
+            android:id="@+id/imageViewLotoFacil"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="63dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LotoFacil"
+            android:textColor="@color/corlotofacil"
+            style="@style/fontesEstilo"
+            android:id="@+id/textViewLotoFacil"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageViewLotoFacil"
+            android:layout_toEndOf="@+id/imageViewLotoFacil"
+            android:layout_marginTop="86dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewLotoFacil"
+            android:layout_marginTop="@dimen/margin_top_table"
+            android:layout_marginLeft="@dimen/margin_left_table"
+            android:layout_marginRight="@dimen/margin_right_table">
+
+            <TableRow
+                android:id="@+id/primeiroTableRow"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_table">
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilPrimeiro"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilSegundo"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilTerceiro"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilQuarto"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilQuinto"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/segundoTableRow"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:divider="@color/preto"
+                android:layout_marginLeft="@dimen/margin_left_table">
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilSexto"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilSetimo"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilOitavo"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilNono"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimo"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/terceiroTableRow"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:divider="@color/preto"
+                android:layout_marginLeft="@dimen/margin_left_table">
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimoPrimeiro"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimoSegundo"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimoTerceiro"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimoQuarto"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+                <TextView
+                    android:id="@+id/resultadoLotoFacilDecimoQuinto"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="@string/zero"
+                    style="@style/fonteResultadoLotoFacil"
+                    android:layout_marginTop="@dimen/margin_top_table_row"
+                    android:layout_marginBottom="@dimen/margin_bottom_table_row"
+                    android:layout_marginRight="@dimen/margin_right_table_row"
+                    android:layout_marginLeft="@dimen/margin_left_table_row"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/branco">
+
+  <ImageView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:src="@drawable/splash_screen_imagem"
+      android:paddingBottom="@dimen/padding_img_splascreen_bottom"
+      android:paddingLeft="@dimen/padding_img_splascreen_left"
+      android:paddingRight="@dimen/padding_img_splascreen_right"
+      android:paddingTop="@dimen/padding_img_splascreen_top"/>
+
+</LinearLayout>

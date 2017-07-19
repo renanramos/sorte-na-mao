@@ -1,0 +1,142 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/megasena"
+            android:text="@string/MegaSena"
+            android:textColor="@color/cormegasena"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_megasena"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_megasena"
+            android:layout_marginTop="@dimen/margin_top_botoes"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/lotofacil"
+            android:text="@string/LotoFacil"
+            android:textColor="@color/corlotofacil"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_lotofacil"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_lotofacil"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/quina"
+            android:text="@string/Quina"
+            android:textColor="@color/corquina"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_quina"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_quina"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/lotomania"
+            android:text="@string/LotoMania"
+            android:textColor="@color/corlotomania"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_lotomania"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_lotomania"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/timemania"
+            android:text="@string/TimeMania"
+            android:textColor="@color/cortimemania"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_timemania"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_timemania"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/duplasena"
+            android:text="@string/DuplaSena"
+            android:textColor="@color/corduplasena"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_duplasena"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_duplasena"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/federal"
+            android:text="@string/Federal"
+            android:textColor="@color/corfederal"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_federal"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_federal"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/loteca"
+            android:text="@string/Loteca"
+            android:textColor="@color/corloteca"
+            style="@style/fontesEstilo"
+            android:drawableStart="@drawable/trevo_loteca"
+            android:drawablePadding="@dimen/padding_drawable"
+            android:background="@drawable/btn_loteca"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</ScrollView>

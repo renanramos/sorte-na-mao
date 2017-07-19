@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sorte na Mão</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- -->
+    <string name="link_megasena"></string>
+    <string name="sem_conexao">Ops! \n </string>
+    <string name="sem_conexao_2">Você está desconectado...</string>
+    <string name="tente_novamente">Tentar novamente</string>
+    <!-- -->
+
+    <!-- Nomes dos botões -->
+
+    <string name="MegaSena">MEGASENA</string>
+    <string name="LotoFacil">LOTOFACIL</string>
+    <string name="Quina">QUINA</string>
+    <string name="LotoMania">LOTOMANIA</string>
+    <string name="TimeMania">TIMEMANIA</string>
+    <string name="DuplaSena">DUPLASENA</string>
+    <string name="Federal">FEDERAL</string>
+    <string name="Loteca">LOTECA</string>
+
+    <string name="trevo_megasena">trevo_megasena</string>
+    <string name="trevo_lotofacil">trevo_lotofacil</string>
+    <!--fim Nomes dos botões -->
+
+    <!-- resultados -->
+    <string name="primeiroValor">  *  </string>
+    <string name="segundoValor">  *  </string>
+    <string name="terceiroValor">  *  </string>
+    <string name="quartoValor">  *  </string>
+    <string name="quintoValor">  *  </string>
+    <string name="sextoValor">  *  </string>
+
+    <string name="valorZerado">R$    0,00</string>
+
+    <string name="zero">00</string>
+    <!-- -->
+    <!-- textos da página-->
+    <string name="lblValorProximoPremio">Proximo prêmio </string>
+    <string name="lblAcumuladoProximoConcurso">Acumulado próximo concurso </string>
+    <string name="lblAcumuladoConcursoFinal">Acumulado próximo concurso final cinco (1835)</string>
+    <string name="lblAcumuladoMegaDaVirada">Acumulado Mega da Virada </string>
+    <!-- -->
+</resources>
